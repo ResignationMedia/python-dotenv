@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup
 
-with open('README.md') as f:
+with open('README.md', 'r', encoding='utf8') as f:
     long_description = f.read()
 
 meta = {}
